@@ -42,11 +42,11 @@ Create a new PostgreSQL database named **Inventory\_Management**. Then, update t
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "Inventory_Management",
-        "USER": "postgres",
-        "PASSWORD": "1238",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
+        "NAME": "your_database_name",  # Replace with your database name
+        "USER": "your_username",       # Replace with your database username
+        "PASSWORD": "your_password",   # Replace with your database password
+        "HOST": "your_host",           # Replace with your host
+        "PORT": "your_port",           # Replace with your port
     }
 }
 ```
